@@ -26,6 +26,7 @@ load("@rules_jvm_external//:defs.bzl", "maven_install")
 maven_install(
     artifacts = [
         "junit:junit:4.13.2",
+        "org.hamcrest:hamcrest-core:1.3",
     ],
     repositories = [
         "https://repo1.maven.org/maven2",
